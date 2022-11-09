@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ================== Google-fonts ================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ul{
+    list-style: none;
+    margin: 0;
+}
+a{
+    text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn.btn-primary {
+    color: #fff;
+    background: #fab700;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid #fab700;
+    transition: .4s;
+}
+.btn.btn-primary:hover{
+    border: 1px solid #ffffff;
+    background: none;
+}
+/* ================== header-top ================== */
+.header-top{
+    padding: 12px 0;
+}
+.bg-black {
+    background-color: #000;
+}
+.social-link ul{}
+.social-link ul li{
+    margin-right: 25px;
+}
+.social-link ul li:last-child{
+    margin-right: 0;
+}
+/* ================== header-top ================== */
+.header-wrapp{
+    justify-content: space-between;
+}
+.p-menu ul li{
+    padding-right: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* ================== header-top ================== */
+.bg{
+    background-image: url(../img/hero_bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+}
+/* ================== header-top ================== */
+.banner-content{
+    padding: 320px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-content h5{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-content h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner{
+    position: relative;
+    z-index: 0;
+}
+.bg::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.single-bt{
+    width: 348px;
+    margin-bottom: 5px;
+    background-color: rgba(82, 80, 80, 0.5);
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+.int-icon img{
+    font-size: 20px;
+}
+.interior-i-wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.single-bt:hover{
+    background-color: seashell;
+    cursor: pointer;
+}
+.single-int{
+    padding-top: 300px;
+    width: 352px;
+    height: 105px;
+}
+.int-icon-2{
+    background-color: #f23a2e;
+    width: 90px;
+    height: 65px;
+    border-radius: 50%;
+}
+.pt-160{
+    padding-top: 160px;
+}
+.why-img img{
+    width: 542px;
+    height: 588px;
+}
+.why-img{
+    border: 5px solid #0fcaf8;
+    width: 480px;
+    padding: 50px;
+}
+.why-img{
+    background-image: url(../img/img_3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 542px;
+    height: 588px;
+}
+.why-wrapp{
+    display: flex;
+}
+.why-text{
+    padding-left: 80px;
+}
+.why-text h6{
+    color: #ff5733;
+}
+.why-text h4{
+    font-weight: 700;
+}
+.p-65{
+    padding-top: 65px;
+}
+.testimonial-item img{
+    width: 100px;
+    height: 88px;
+    border-radius: 50%;
+}
+.testimonial-item{
+    width: 320px;
+    text-align: center;
+}
+.item-do-flex{
+    display: flex;
+}
+.decor-wrapp{
+    display: flex;
+    
+}
+.decor-site{
+    padding-left: 80px;
+    display: flex;
+    display: block;
+}
+.single-decor img{
+    color: #989898;
+}
+.blog-wrapp{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.btn-info-2{
+    color: #fff;
+    background: #1c4ca7;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid #fab700;
+    transition: .4s;
+}
+.btn-info-2:hover{
+    border: 1px solid #1c4ca7;
+    background: whitesmoke;
+}
+.pt-15{
+    padding-top: 30px;
+}
+.button{
+    text-align: center;
+    padding-top: 35px;
+}
+/* ================== header-top ================== */
+.pt-15{
+    padding-top: 15px;
+}
+.footer-wrapp{
+    display: flex;
+}
+.footer{
+    background: #333333;
+}
+.single-cont h5{
+    color: whitesmoke;
+}
+.nav-li ul li a{
+    color: #999999;
+}
+.nav-li-2 ul li a{
+    color: #999999;
+}
